@@ -3,3 +3,39 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+
+@font-face {
+  font-family: "Laviossa";
+  src: url(./fonts/LaviossaMedium.eot);
+  src: url(./fonts/jehoo-creative-laviossa-medium.otf) format(otf),
+    url(./fonts/LaviossaMedium.woff2) format(woff2),
+    url(./fonts/LaviossaMedium.woff) format(woff),
+    url(./fonts/LaviossaMedium.ttf) format(ttf);
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+.jc-c {
+  justify-content: center;
+}
+
+.jc-sb {
+  justify-content: space-between;
+}
+
+.jc-sa {
+  justify-content: space-around;
+}
+
+.jc-s {
+  justify-content: flex-start;
+}
+
+.jc-e {
+  justify-content: flex-end;
+}
+
+.ai-c {
+  align-items: center;
+}

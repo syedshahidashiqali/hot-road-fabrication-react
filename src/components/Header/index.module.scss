@@ -1,0 +1,204 @@
+.headerWrapperMain {
+  background-color: #f6f6f6;
+
+  .leftColWrapper {
+    .topSection {
+      background-color: #f9dff9;
+      // padding: 25px 20px;
+      padding: 40px 20px 65px 20px;
+
+      .innerWrapperLeft {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        h5 {
+          font-size: 28px;
+          font-family: "LaviossaMedium";
+          color: rgb(0, 0, 0);
+          margin-bottom: 0px;
+          font-weight: 600;
+        }
+      }
+      .innerWrapperRight {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .textWrapper {
+          display: flex;
+          justify-content: center;
+          width: 100%;
+          padding-left: 10px;
+          span {
+            font-size: 16px;
+            font-family: "Lato";
+            color: rgb(97, 96, 96);
+            width: 209px;
+            height: 40px;
+          }
+        }
+      }
+
+      .iconWrapper {
+        position: relative;
+        border-radius: 50%;
+        background-color: rgb(128, 0, 128);
+        width: 40px;
+        height: 40px;
+        z-index: 9;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+          width: 15px;
+          height: 15px;
+        }
+      }
+
+      .midInnerWrapper {
+        padding-top: 10%;
+        .textWrapper {
+          display: flex;
+          flex-direction: column;
+          h3 {
+            font-size: 60px;
+            font-family: "Laviossa";
+            color: rgb(128, 0, 128);
+            line-height: 1.15;
+          }
+
+          p {
+            padding-top: 3%;
+            font-size: 18px;
+            font-family: "Lato";
+            color: rgb(97, 96, 96);
+            line-height: 1.5;
+          }
+        }
+      }
+    }
+
+    .botSection {
+      background-color: #7f67fa;
+      padding: 25px 20px;
+      color: #fff;
+
+      hr {
+        background-color: rgb(152, 132, 253);
+        margin-bottom: 30px;
+      }
+
+      .botWrapper {
+        .botRight {
+          display: flex;
+          justify-content: flex-end;
+          align-items: center;
+
+          & > span {
+            font-size: 18px;
+            font-weight: 500;
+            margin-right: 10px;
+          }
+        }
+      }
+      .botDownWrapper {
+        .iconWrapper {
+          border-radius: 50%;
+          background-color: rgb(152, 132, 253);
+          width: 48px;
+          height: 48px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+
+        h6 {
+          padding-top: 5%;
+        }
+
+        .botDownRight {
+          float: right;
+        }
+        .botDownLeft {
+        }
+      }
+    }
+  }
+
+  .rightColWrapper {
+    // background-color: #f6f6f6;
+
+    .linksWrapper {
+      // padding: 40px 0px;
+      padding: 30px 0px 65px 0px;
+      ul {
+        display: flex;
+        justify-content: center;
+        li {
+          a {
+            font-size: 18px;
+            font-family: "Lato";
+            color: #616060;
+            // line-height: 6.125;
+            text-transform: uppercase;
+
+            &:hover {
+              color: rgb(128, 0, 128);
+            }
+
+            &.active {
+              color: rgb(128, 0, 128);
+            }
+          }
+        }
+        li:not(:last-child) {
+          margin-right: 30px;
+        }
+      }
+    }
+
+    .textBgWrapper {
+      margin-top: 10px;
+      h1 {
+        font-size: 150px;
+        font-family: "Laviossa";
+        color: rgba(249, 223, 249, 0.502);
+        line-height: 0.49;
+        z-index: 12;
+      }
+    }
+
+    .carBgWrapper {
+      position: relative;
+      img {
+        position: absolute;
+      }
+      img:nth-child(1) {
+        top: -20px;
+      }
+
+      img:nth-child(2) {
+        bottom: -328px;
+      }
+      .midIconWrapper {
+        border-radius: 50%;
+        box-shadow: 0px 17px 92.34px 21.66px rgba(128, 0, 128, 0.21);
+        background-color: #fff;
+        position: absolute;
+        top: 286px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80px;
+        height: 80px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+
+        img {
+          position: relative;
+        }
+      }
+    }
+  }
+}
